@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Campeões de League of Legends</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Campeões de League of Legends</h1>
+  <p>Dados fornecidos pela Riot Games (Data Dragon)</p>
+
+  <div class="top-bar">
+    <input type="text" id="search" placeholder="Buscar campeão...">
+    <button id="refresh">Atualizar</button>
+  </div>
+
+  <div id="champions" class="container"></div>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="close" class="close">&times;</span>
+      <h2 id="champName"></h2>
+      <p id="champTitle"></p>
+      <img id="champImg" width="200">
+      <p id="champLore"></p>
+      <h3>Função:</h3>
+      <p id="champTags"></p>
+      <h3>Dificuldade:</h3>
+      <p id="champDifficulty"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
