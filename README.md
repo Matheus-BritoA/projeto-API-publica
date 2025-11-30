@@ -30,5 +30,6 @@ Endpoints usados:
 
 ## ▶️ Como rodar
 Basta abrir o arquivo **index.html** no navegador.
+Ou acessar o repositório em deploy no Vercal: https://atividade-api-two.vercel.app
 
 Não é necessário servidor ou API key.
